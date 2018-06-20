@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MakingCube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>kC5DYzSWBpk38RGzg3KBjA5RxJ0=5/16/2018 12:45:55 AM5/15/2018 5:49:13 PM</TimeStamp>
+        <ID>
+          <String>My Data Wharehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>QVES8JQp4ekiw6S60bMfY6taP0s=5/18/2018 7:05:59 PM5/15/2018 5:53:05 PM</TimeStamp>
+        <ID>
+          <String>My Data Wharehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8Dt3U3l4w6nB30uBXC4aHJFiU30=5/15/2018 6:21:10 PM5/15/2018 5:59:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Doctor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BBl++OUIfUI+d8CunY2JoRFWqb8=5/15/2018 6:21:39 PM5/15/2018 5:59:58 PM</TimeStamp>
+        <ID>
+          <String>DD Im Medicine</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>g6ieTQJcZBmiXouGo/TmpW6Z13g=5/15/2018 6:21:57 PM5/15/2018 5:59:58 PM</TimeStamp>
+        <ID>
+          <String>D Dim Records</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8QdjZ4CNo7a+n93Pliva8kmgBrc=5/19/2018 11:16:15 AM5/15/2018 5:59:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PVMPoKa7zy1z1r/QuQ1Zf5nc8S4=5/18/2018 8:15:08 PM5/15/2018 5:59:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QYHs3OFHR9HOZisnVRWVJ2901wc=5/18/2018 7:06:26 PM5/18/2018 7:05:59 PM</TimeStamp>
+        <ID>
+          <String>D Dim Patient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>yHbjq1NoWmNWSFXIpOfGHgWshSc=5/19/2018 11:16:15 AM5/15/2018 5:59:57 PMwIVQMjK06ZEvPig0bTgLowYHh4A=5/15/2018 5:59:58 PM5/15/2018 5:59:57 PM</TimeStamp>
+        <ID>
+          <String>cube1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>ydepa8bMXytcYqIrgVhvvhvbQtM=5/15/2018 5:44:02 PM5/15/2018 5:44:02 PM</TimeStamp>
+      <ID>
+        <String>MakingCube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-05-19T05:46:32.543333Z</LastDeployed>
+</DeploymentSnapshot>
